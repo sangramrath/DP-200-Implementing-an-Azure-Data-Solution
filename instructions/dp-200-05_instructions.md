@@ -59,17 +59,19 @@ The main task for this exercise are as follows:
 
     - Resource group name: **awrgstudxx**, where **xx** are your initials.
 
-    - Database name: In **Additional setting** tab, under data source, click **Sample** . The AdventureworksLT sample database is selected automatically.
+    - Database name: **sqlserverxx**, where **xx** are your initials. 
 
     - Server: Create a new server by clicking **Create new** with the following settings and click on **OK**:
-        - Server name: **SQLServicexx**, where **xx** are your initials
+        - Server name: **sqlservicexx**, where **xx** are your initials
         - Server admin login: **xxsqladmin**, where **xx** are your initials
         - Password: **Pa55w.rd**
         - Confirm Password: **Pa55w.rd**
         - Location: choose a **location** near to you.
         - Allow Azure services to access server: **checked**
 
-    - Click on **Additional settings** tab, under **Data Source**, click on **Sample**.
+    - Click on **Configure database** under **Compute + storage** and select **Basic** tier.
+    
+    - Click on **Additional settings** tab, under **Data Source**, click on **Sample**. The AdventureworksLT sample database is selected automatically.
 
     - Leave the remaining settings to their defaults
 
