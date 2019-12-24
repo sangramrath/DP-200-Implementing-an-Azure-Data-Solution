@@ -252,10 +252,15 @@ The main tasks for this exercise are as follows:
 
 1. Create a dbo.Dates table using PolyBase from Azure Blob
 
-
-### Task 1: Collect Azure Blob account name and key details
+### Task 0: Create a container called "data" and load text file
 
 1. In the Azure portal, click on **Resource groups** and then click on **awrgstudxx**, and then click on **awsastudxx** where xx are the initials of your name.
+
+1. Click **Containers**, click **+Container** and enter name as **data**. Click Ok.
+
+1. Click **data** container, upload the **DimDate2.txt** file from Labfiles/Starter/DP-200.2/Static files/ folder.
+
+### Task 1: Collect Azure Blob account name and key details
 
 1. In the **awsastudxx** screen, click **Access keys**. Click on the icon next to the **Storage account name** and paste it into Notepad.
 
